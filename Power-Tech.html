@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Power-Tech</title>
+    <link rel="stylesheet" href="Power-Tech.css">
+</head>
+<body>
+    <header>
+    <nav>
+        <ul>
+            <li>
+                <a href="Power-Tech.html" target="_blank">Home</a>
+            </li>
+            <li>
+                <a href="" target="_parent">About</a>
+            </li>
+            <li>
+                <a href="Contact.html" target="_self">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    </header>
+    
+    <main> 
+        <h1>This is Power-Tech!</h1>
+        <h2>How can we help you?</h2>
+        
+    </main>
+    <section>
+        <form id="page">
+            <label for="name">Please Enter Your Name</label>
+            <input type="text" id="tag" name="name">
+            <button type="submit">Submit</button>
+            <p id="welcome"></p>
+        </form>
+
+    </section>
+    <article>
+        <form id="age-form">
+            <h2>Age Verification</h2>
+            <label for="birthdate">
+            <input type="date" id="dob" placeholder="Enter Age"/>
+            </label>
+            <button onclick="verifyAge()" id="verify-btn">Verify Age</button>
+
+        
+                <p id="result">RESULT</p>
+
+        </form>
+    </article>
+    <footer>
+
+    </footer>
+  
+
+    <script src="PowerScript.js"></script>
+    <script src="AgeScript.js"></script>
+    
+</body>
+
+</html>
